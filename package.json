@@ -1,0 +1,16 @@
+{
+  "name": "design-patterns-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "factory-dev": "nodemon ./dist/abstract-factory-pattern/client.js",
+    "factory": "node ./dist/abstract-factory-pattern/client.js"
+  },
+  "author": "mahesh mali",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.10.1",
+    "nodemon": "^3.0.2"
+  }
+}

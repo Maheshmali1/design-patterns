@@ -4,13 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "commit": "cz",
     "factory-dev": "nodemon ./dist/abstract-factory-pattern/client.js",
     "factory": "node ./dist/abstract-factory-pattern/client.js"
   },
   "author": "mahesh mali",
   "license": "ISC",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    }
+  },
   "dependencies": {
     "@types/node": "^20.10.1",
     "nodemon": "^3.0.2"
+  },
+  "devDependencies": {
+    "commitizen": "^4.3.0",
+    "cz-customizable": "^7.0.0"
   }
 }

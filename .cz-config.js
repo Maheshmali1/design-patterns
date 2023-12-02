@@ -6,7 +6,7 @@ module.exports = {
       { value: 'chore', name: 'chore: Changes to build process' },
     ],
     scopes: [
-      { value: '', name: 'All scopes' },
+      { value: 'All', name: 'All scopes' },
       { value: 'abstract-factory', name: 'abstract-factory pattern' },
     ],
   };

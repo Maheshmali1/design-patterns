@@ -5,7 +5,7 @@ const concrete_chair_1 = require("./concrete-chair");
 class SmallChair extends concrete_chair_1.ChairProduct {
     constructor() {
         super();
-        this.name = "Small Chair";
+        this.name = 'Small Chair';
         this.height = 10;
         this.width = 10;
         this.depth = 10;

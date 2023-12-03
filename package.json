@@ -6,7 +6,9 @@
   "scripts": {
     "commit": "cz",
     "factory-dev": "nodemon ./dist/abstract-factory-pattern/client.js",
-    "factory": "node ./dist/abstract-factory-pattern/client.js"
+    "factory": "node ./dist/abstract-factory-pattern/client.js",
+    "builder-dev": "nodemon ./dist/builder-pattern/client.js",
+    "builder": "node ./dist/builder-pattern/client.js"
   },
   "author": "mahesh mali",
   "license": "ISC",

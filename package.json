@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "commit": "cz",
-    "factory-dev": "nodemon ./dist/abstract-factory-pattern/client.js",
-    "factory": "node ./dist/abstract-factory-pattern/client.js"
+    "abstract-factory-dev": "nodemon ./dist/abstract-factory-pattern/client.js",
+    "abstract-factory": "node ./dist/abstract-factory-pattern/client.js",
+    "prototype-dev": "nodemon ./dist/prototype-pattern/client.js",
+    "prototype": "node ./dist/prototype-pattern/client.js"
   },
   "author": "mahesh mali",
   "license": "ISC",

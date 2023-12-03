@@ -8,5 +8,6 @@ module.exports = {
   scopes: [
     { value: 'All', name: 'All scopes' },
     { value: 'abstract-factory', name: 'abstract-factory pattern' },
+    { value: 'prototype', name: 'prototype pattern' },
   ]
 };

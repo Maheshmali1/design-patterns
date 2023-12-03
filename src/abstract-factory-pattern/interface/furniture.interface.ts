@@ -1,4 +1,4 @@
-import { Chair } from "./chair.interface";
-import { Table } from "./table.interface";
+import { Chair } from './chair.interface';
+import { Table } from './table.interface';
 
-export type Furniture  = Table | Chair | null;
+export type Furniture = Table | Chair | null;

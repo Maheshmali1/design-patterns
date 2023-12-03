@@ -1,10 +1,10 @@
 export enum FurnitureType {
-    CHAIR,
-    TABLE,
+  CHAIR,
+  TABLE,
 }
 
 export enum FurnitureSize {
-    SMALL,
-    MEDIUM,
-    LARGE
+  SMALL,
+  MEDIUM,
+  LARGE,
 }

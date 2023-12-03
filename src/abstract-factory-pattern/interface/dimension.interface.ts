@@ -1,5 +1,5 @@
 export interface Dimension {
-    height: number;
-    width: number;
-    depth: number;
+  height: number;
+  width: number;
+  depth: number;
 }

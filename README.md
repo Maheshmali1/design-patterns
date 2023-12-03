@@ -6,9 +6,14 @@ Welcome to the Design Patterns in TypeScript repository! This project is designe
 
 ### Design Patterns Included:
 
-1. **Abstract Factory Method Pattern**
+1. **Abstract Factory Pattern**
+
    - **Description:** Defines an interface for creating an object but leaves the choice of its type to the subclasses, creating the object without specifying its class.
    - **Location:** [abstract-factory-pattern](./src/abstract-factory-pattern/)
+
+2. **Prototype Pattern**
+   - **Description:** The Prototype design pattern is good for when creating new objects requires more resources than you want to use or have available.
+   - **Location:** [prototype-pattern](./src/prototype-pattern/)
 
 ## How to Use the Repository
 
@@ -37,7 +42,7 @@ npm install
 ```bash
 npm run ${design-pattern-name}
 
-e.g. npm run factory
+e.g. npm run abstract-factory
 ```
 
 ## Author

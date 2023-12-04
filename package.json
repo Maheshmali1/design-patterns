@@ -8,7 +8,9 @@
     "abstract-factory-dev": "nodemon ./dist/abstract-factory-pattern/client.js",
     "abstract-factory": "node ./dist/abstract-factory-pattern/client.js",
     "prototype-dev": "nodemon ./dist/prototype-pattern/client.js",
-    "prototype": "node ./dist/prototype-pattern/client.js"
+    "prototype": "node ./dist/prototype-pattern/client.js",
+    "singleton-dev": "nodemon ./dist/singleton-pattern/client.js",
+    "singleton": "node ./dist/singleton-pattern/client.js"
   },
   "author": "mahesh mali",
   "license": "ISC",

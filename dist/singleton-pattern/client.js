@@ -1,0 +1,17 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const singleton_users_1 = require("./singleton-users");
+const game1 = new singleton_users_1.Game1();
+game1.addWinner(1, 'ABC');
+console.log(`Printing scoreboard aftering adding winner from game1`);
+game1.leaderboard.printLeaderboard();
+console.log();
+const game2 = new singleton_users_1.Game2();
+game2.addWinner(2, 'DEF');
+console.log(`Printing scoreboard aftering adding winner from game2`);
+game2.leaderboard.printLeaderboard();
+console.log();
+const game3 = new singleton_users_1.Game3();
+game3.addWinner(3, 'GHI');
+console.log(`Printing scoreboard aftering adding winner from game3`);
+game3.leaderboard.printLeaderboard();

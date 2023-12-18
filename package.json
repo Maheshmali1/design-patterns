@@ -10,7 +10,9 @@
     "prototype-dev": "nodemon ./dist/prototype-pattern/client.js",
     "prototype": "node ./dist/prototype-pattern/client.js",
     "singleton-dev": "nodemon ./dist/singleton-pattern/client.js",
-    "singleton": "node ./dist/singleton-pattern/client.js"
+    "singleton": "node ./dist/singleton-pattern/client.js",
+    "decorator-dev": "nodemon ./dist/decorator-pattern/client.js",
+    "decorator": "node ./dist/decorator-pattern/client.js"
   },
   "author": "mahesh mali",
   "license": "ISC",

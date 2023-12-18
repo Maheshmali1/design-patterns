@@ -12,8 +12,18 @@ Welcome to the Design Patterns in TypeScript repository! This project is designe
    - **Location:** [abstract-factory-pattern](./src/abstract-factory-pattern/)
 
 2. **Prototype Pattern**
+
    - **Description:** The Prototype design pattern is good for when creating new objects requires more resources than you want to use or have available.
    - **Location:** [prototype-pattern](./src/prototype-pattern/)
+
+3. **Singleton Pattern**
+
+   - **Description:** The Singleton Pattern is a design pattern that restricts the instantiation of a class to a single instance and provides a global point of access to that instance. This pattern ensures that a class has only one instance and provides a way to access it from any point in the application.
+   - **Location:** [prototype-pattern](./src/singleton-pattern/)
+
+4. **decorator Pattern**
+   - **Description:** The Decorator Pattern is a structural design pattern that allows behavior to be added to individual objects, either statically or dynamically, without affecting the behavior of other objects from the same class.
+   - **Location:** [prototype-pattern](./src/decorator-pattern/)
 
 ## How to Use the Repository
 

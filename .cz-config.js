@@ -10,5 +10,6 @@ module.exports = {
     { value: 'abstract-factory', name: 'abstract-factory pattern' },
     { value: 'prototype', name: 'prototype pattern' },
     { value: 'singleton', name: 'singleton pattern' },
+    { value: 'decorator', name: 'decorator pattern' },
   ]
 };

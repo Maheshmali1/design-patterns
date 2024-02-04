@@ -13,6 +13,8 @@
     "singleton": "node ./dist/singleton-pattern/client.js",
     "strategy-dev": "nodemon ./dist/strategy-pattern/client.js",
     "strategy": "node ./dist/strategy-pattern/client.js",
+    "observer-dev": "nodemon ./dist/observer-pattern/client.js",
+    "observer": "node ./dist/observer-pattern/client.js",
     "tsc": "cd ./src && tsc -w"
   },
   "author": "mahesh mali",

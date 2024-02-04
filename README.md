@@ -15,11 +15,18 @@ Welcome to the Design Patterns in TypeScript repository! This project is designe
    - **Description:** The Prototype Pattern is a creational design pattern that focuses on efficiently creating objects by cloning an existing instance, known as the prototype. Instead of creating new objects through traditional instantiation, the Prototype Pattern allows for the duplication of existing objects, serving as a blueprint for new instances. This pattern is especially useful when the cost of creating a new instance is more expensive than copying an existing one.
    - **Location:** [prototype-pattern](./src/prototype-pattern/)
 3. **Singleton Pattern**
+
    - **Description:** The Singleton Pattern is a design pattern that ensures a class has only one instance and provides a global point of access to that instance. It is part of the creational design patterns and is often used when a single point of control or coordination is desirable.
    - **Location:** [singleton-pattern](./src/singleton-pattern/)
+
 4. **Strategy Pattern**
+
    - **Description:** The Strategy Pattern is a behavioral design pattern that defines a family of algorithms, encapsulates each algorithm, and makes them interchangeable. It allows a client to choose an appropriate algorithm from a set of options at runtime. The key idea behind the Strategy Pattern is to define a family of algorithms, encapsulate each one, and make them interchangeable without altering the client code.
    - **Location:** [strategy-pattern](./src/strategy-pattern/)
+
+5. **Observer Pattern**
+   - **Description:** The Observer Pattern is a behavioral design pattern where an object, known as the subject, maintains a list of its dependents, called observers, that are notified of any state changes. When the state of the subject changes, all registered observers are automatically notified and updated.
+   - **Location:** [strategy-pattern](./src/observer-pattern/)
 
 ## How to Use the Repository
 

@@ -11,5 +11,6 @@ module.exports = {
     { value: 'prototype', name: 'prototype pattern' },
     { value: 'singleton', name: 'singleton pattern' },
     { value: 'strategy', name: 'strategy pattern' },
+    { value: 'observer', name: 'observer pattern' },
   ]
 };

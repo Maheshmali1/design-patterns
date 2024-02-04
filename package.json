@@ -10,7 +10,10 @@
     "prototype-dev": "nodemon ./dist/prototype-pattern/client.js",
     "prototype": "node ./dist/prototype-pattern/client.js",
     "singleton-dev": "nodemon ./dist/singleton-pattern/client.js",
-    "singleton": "node ./dist/singleton-pattern/client.js"
+    "singleton": "node ./dist/singleton-pattern/client.js",
+    "strategy-dev": "nodemon ./dist/strategy-pattern/client.js",
+    "strategy": "node ./dist/strategy-pattern/client.js",
+    "tsc": "cd ./src && tsc -w"
   },
   "author": "mahesh mali",
   "license": "ISC",

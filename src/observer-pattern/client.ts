@@ -13,9 +13,11 @@ iphoneObservable.subscribe(emailObserver);
 
 console.log(`updating iphone stock....`);
 iphoneObservable.setValue(100);
+console.log();
 
 console.log(`unsubscribing from iphoneObservable...`);
 iphoneObservable.unsubscribe(SMSObserver1);
+console.log();
 console.log(`updating iphone stock....`);
 iphoneObservable.setValue(0);
 iphoneObservable.setValue(10);

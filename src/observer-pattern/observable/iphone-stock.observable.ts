@@ -13,11 +13,7 @@ export class IphoneStockObservable implements IObservable {
   }
 
   public notify(): void {
-    this._observers.forEach((o) => o.update(this.getValue()));
-  }
-
-  public getValue(): any {
-    return this._value;
+    this._observers.forEach((o) => o.update(this._value));
   }
 
   public setValue(value: any): void {

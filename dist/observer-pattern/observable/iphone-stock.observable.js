@@ -13,10 +13,7 @@ class IphoneStockObservable {
         this._observers = this._observers.filter((o) => o !== observer);
     }
     notify() {
-        this._observers.forEach((o) => o.update(this.getValue()));
-    }
-    getValue() {
-        return this._value;
+        this._observers.forEach((o) => o.update(this._value));
     }
     setValue(value) {
         const prevValue = this._value;

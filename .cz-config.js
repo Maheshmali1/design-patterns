@@ -12,5 +12,6 @@ module.exports = {
     { value: 'singleton', name: 'singleton pattern' },
     { value: 'strategy', name: 'strategy pattern' },
     { value: 'observer', name: 'observer pattern' },
+    { value: 'decorator', name: 'decorator pattern' },
   ]
 };

@@ -27,6 +27,9 @@ Welcome to the Design Patterns in TypeScript repository! This project is designe
 5. **Observer Pattern**
    - **Description:** The Observer Pattern is a behavioral design pattern where an object, known as the subject, maintains a list of its dependents, called observers, that are notified of any state changes. When the state of the subject changes, all registered observers are automatically notified and updated.
    - **Location:** [observer-pattern](./src/observer-pattern/)
+6. **Decorator Pattern**
+   - **Description:** The Decorator Pattern is a structural design pattern that allows behavior to be added to individual objects, either statically or dynamically, without affecting the behavior of other objects from the same class. It is achieved by creating a set of decorator classes that are used to wrap concrete components.
+   - **Location:** [decorator-pattern](./src/decorator-pattern/)
 
 ## How to Use the Repository
 

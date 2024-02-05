@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const base_classes_1 = require("./base-classes");
+const decorators_1 = require("./decorators");
+console.log(`Pizza shop................`);
+console.log(`Buying farmhoue pizza........`);
+const pizza = new base_classes_1.FarmHousePizza();
+console.log(`farmhoue pizza cost : ${pizza.cost()}\n`);
+console.log(`Buying farmhoue pizza with extra cheese........`);
+const pizzaWithExtraCheese = new decorators_1.AddCheese(new base_classes_1.FarmHousePizza());
+console.log(`farmhoue pizza with extra cheese cost: ${pizzaWithExtraCheese.cost()}\n`);
+console.log(`Buying veg-delight pizza with extra veggie and mushroom........`);
+const pizzaWithExtraVegan = new decorators_1.AddMushroom(new decorators_1.AddVeggie(new base_classes_1.VegDelight()));
+console.log(`pizza with extra veggie and mushroom cost: ${pizzaWithExtraVegan.cost()}\n`);
